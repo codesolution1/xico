@@ -1,0 +1,48 @@
+/**
+*
+* ---------------------------------------------------------------------------
+*
+* Template Name: Xico - One Page Responsive HTML5 Template.
+* Template URI:	http://hiknik.com/xico/
+* Author : themewarehouse
+* Description: This is One Page Responsive Multipurpose HTML5 Template
+* Version : 1.2
+*
+* --------------------------------------------------------------------------- 
+*
+*/
+
+
+/* CSS files
+====================== */
+
+/***** ----- bootstrap css ----- *****/
+@import url('css/bootstrap.min.css');
+/***** ----- font awesome css ----- *****/
+@import url('css/font-awesome.min.css');
+/***** ----- slicknav css ----- *****/
+@import url('css/slicknav.min.css');
+/***** ----- owl carousel css ----- *****/
+@import url('css/owl.carousel.min.css');
+/***** ----- YTPlayer css ----- *****/
+@import url('css/jquery.mb.YTPlayer.min.css');
+/***** ----- typing css ----- *****/
+@import url('css/typing.css');
+/***** ----- hover css ----- *****/
+@import url('css/hover-min.css');
+/***** ----- animate css ----- *****/
+@import url('css/animate.min.css');
+/***** ----- wmBox css ----- *****/
+@import url('css/wmBox.css');
+/***** ----- particle css ----- *****/
+@import url('css/particle.css');
+/***** ----- lightbox css ----- *****/
+@import url('css/lightbox.min.css');
+/***** ----- jquery ui css ----- *****/
+@import url('css/jquery-ui.css');
+/***** ----- timeline css ----- *****/
+@import url('css/timeline.css');
+/***** ----- main css ----- *****/
+@import url('css/main.css');
+/***** ----- responsive css ----- *****/
+@import url('css/responsive.css');

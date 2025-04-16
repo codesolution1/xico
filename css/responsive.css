@@ -1,0 +1,541 @@
+/**
+*
+* ---------------------------------------------------------------------------
+*
+* Template Name: Xico - One Page Responsive HTML5 Template.
+* Template URI:	http://hiknik.com/xico/
+* Author : themewarehouse
+* Description: This is One Page Responsive Multipurpose HTML5 Template
+* Version : 1.2
+*
+* --------------------------------------------------------------------------- 
+*
+*/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.about-content {
+		margin-bottom: 50px;
+		padding: 0 0 0 70px;
+	}
+	.banner-content>p {
+		padding: 0;
+	}
+	/*	recent post part start*/
+	#cd-timeline {
+		margin-bottom: 3em;
+	}
+	#cd-timeline::before {
+		left: 50%;
+		margin-left: -2px;
+	}
+	.cd-timeline-block {
+		margin: 4em 0;
+	}
+	.cd-timeline-block:first-child {
+		margin-top: 0;
+	}
+	.cd-timeline-block:last-child {
+		margin-bottom: 0;
+	}
+	.cd-timeline-img {
+		width: 60px;
+		height: 60px;
+		left: 50%;
+		margin-left: -30px;
+		/* Force Hardware Acceleration in WebKit */
+		-webkit-transform: translateZ(0);
+		-webkit-backface-visibility: hidden;
+	}
+	.cssanimations .cd-timeline-img.is-hidden {
+		visibility: hidden;
+	}
+	.cssanimations .cd-timeline-img.bounce-in {
+		visibility: visible;
+		-webkit-animation: cd-bounce-1 0.6s;
+		-moz-animation: cd-bounce-1 0.6s;
+		animation: cd-bounce-1 0.6s;
+	}
+	.cd-timeline-content {
+		margin-left: 0;
+		padding: 1.6em;
+		width: 45%;
+	}
+	.cd-timeline-content::before {
+		top: 24px;
+		left: 100%;
+		border-color: transparent;
+		border-left-color: white;
+	}
+	.cd-timeline-content .cd-read-more {
+		float: left;
+		margin-right: 50px;
+	}
+	.cd-timeline-content .cd-date {
+		position: absolute;
+		width: 100%;
+		left: 122%;
+		top: 6px;
+		font-size: 16px;
+		font-size: 1rem;
+	}
+	.cd-timeline-block:nth-child(even) .cd-timeline-content {
+		float: right;
+	}
+	.cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+		top: 24px;
+		left: auto;
+		right: 100%;
+		border-color: transparent;
+		border-right-color: white;
+	}
+	.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
+		float: right;
+	}
+	.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
+		left: auto;
+		right: 122%;
+		text-align: right;
+	}
+	.cssanimations .cd-timeline-content.is-hidden {
+		visibility: hidden;
+	}
+	.cssanimations .cd-timeline-content.bounce-in {
+		visibility: visible;
+		-webkit-animation: cd-bounce-2 0.6s;
+		-moz-animation: cd-bounce-2 0.6s;
+		animation: cd-bounce-2 0.6s;
+	}
+	/* inverse bounce effect on even content blocks */
+	.cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
+		-webkit-animation: cd-bounce-2-inverse 0.6s;
+		-moz-animation: cd-bounce-2-inverse 0.6s;
+		animation: cd-bounce-2-inverse 0.6s;
+	}
+	/*	recent post part end*/
+}
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.nav.nav-tabs a {
+		font-size: 12px;
+		padding: 15px 5px;
+	}
+	.owl-nav {
+		display: none;
+	}
+	.banner-content>p {
+		padding: 0;
+	}
+	.slider-table-cell h2 {
+		font-size: 30px;
+	}
+	.slider-table-cell h3 {
+		font-size: 25px;
+	}
+	.xico-btn {
+		padding: 10px 15px;
+	}
+	.xico-heading p {
+		width: auto;
+	}
+	.about-us-content-left {
+		padding-left: 25px;
+	}
+	.about-content {
+		padding: 0 0 0 50px;
+	}
+	.about-us-content {
+		display: block;
+	}
+	.about-us-content-left {
+		float: left;
+		margin-top: 50px;
+		padding: 0 15px;
+		width: 100%;
+	}
+	.about-content {
+		padding: 0;
+		padding-left: 60px;
+	}
+	.about-us-content-right {
+		float: right;
+		height: 350px;
+		width: 100%;
+	}
+	.choose-us-content-right {
+		padding: 30px 22px 30px 30px;
+	}
+	.choose-us-content {
+		display: block;
+	}
+	.choose-us-content-left {
+		width: 100%;
+		height: 350px;
+	}
+	.choose-us-content-right {
+		float: right;
+		padding: 60px 15px;
+		width: 100%;
+	}
+	.price-table {
+		margin: 0 auto;
+		width: 70%;
+	}
+	.price-btn {
+		padding: 15px 30px;
+	}
+	/*	recent post part start*/
+	.cd-timeline-img {
+		width: 60px;
+		height: 60px;
+		left: 50%;
+		margin-left: -30px;
+		/* Force Hardware Acceleration in WebKit */
+		-webkit-transform: translateZ(0);
+		-webkit-backface-visibility: hidden;
+	}
+	.cssanimations .cd-timeline-img.is-hidden {
+		visibility: hidden;
+	}
+	.cssanimations .cd-timeline-img.bounce-in {
+		visibility: visible;
+		-webkit-animation: cd-bounce-1 0.6s;
+		-moz-animation: cd-bounce-1 0.6s;
+		animation: cd-bounce-1 0.6s;
+	}
+	.cssanimations .cd-timeline-content.bounce-in {
+		visibility: visible;
+		-webkit-animation: cd-bounce-2 0.6s;
+		-moz-animation: cd-bounce-2 0.6s;
+		animation: cd-bounce-2 0.6s;
+	}
+	/* inverse bounce effect on even content blocks */
+	.cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
+		-webkit-animation: cd-bounce-2-inverse 0.6s;
+		-moz-animation: cd-bounce-2-inverse 0.6s;
+		animation: cd-bounce-2-inverse 0.6s;
+	}
+	#cd-timeline::before,
+	.cd-timeline-img {
+		left: 3%;
+	}
+	.cd-timeline-content::before {
+		top: 0;
+	}
+	/*	recent post part end*/
+	.author-content {
+		width: 100%;
+	}
+	.weekdays li,
+	.days li {
+		width: 11.6%;
+	}
+	.blog-comment-right>a {
+		font-size: 12px;
+		padding: 5px;
+	}
+	.comment-content {
+		padding-left: 25px;
+	}
+	.reply-commnet-content {
+		padding-left: 60px;
+	}
+	.single-post-title {
+		padding: 50px 0;
+	}
+	.contact-details {
+		border: 0;
+	}
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	.not-found-table h1 {
+		font-size: 100px;
+	}
+	.not-found-table h2 {
+		font-size: 50px;
+	}
+	.not-found-table>p {
+		font-size: 18px;
+	}
+	.not-found-table .not-found-input {
+		width: 70%;
+	}
+	.not-found-btn {
+		width: 28%;
+	}
+	.main-menu,
+	.slicknav_menutxt {
+		display: none !important;
+	}
+	.slicknav_menu {
+		background: transparent none repeat scroll 0 0;
+		display: block;
+		position: fixed;
+		top: 60px;
+		width: 100%;
+		z-index: 999999;
+	}
+	.slicknav_btn {
+		background-color: #fb5e1c;
+		left: -35%;
+		top: -52px;
+		padding: 10px;
+	}
+	.slicknav_menu .slicknav_icon {
+		margin: 0;
+	}
+	.slicknav_nav {
+		background-color: #fb5e1c;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+	.slicknav_nav a {
+		text-transform: uppercase;
+	}
+	.header-area {
+		padding: 0;
+	}
+	.search-box::after {
+		left: 0;
+	}
+	.search-box {
+		position: absolute;
+		right: 0;
+		top: 15px;
+		margin: 0;
+		z-index: 99999999999;
+	}
+	.banner-content>p {
+		padding: 0;
+	}
+	.slider-table-cell h2 {
+		font-size: 16px;
+	}
+	.owl-nav {
+		display: none;
+	}
+	.slider-table-cell h2 {
+		font-size: 20px;
+	}
+	.slider-table-cell h3 {
+		font-size: 18px;
+	}
+	.slider-table-cell p {
+		font-size: 12px;
+	}
+	.xico-btn {
+		font-size: 12px;
+		margin-right: 5px;
+		padding: 10px;
+	}
+	.xico-heading p {
+		width: auto;
+	}
+	.xico-heading h1 {
+		font-size: 30px;
+	}
+	.xico-heading p {
+		font-size: 12px;
+	}
+	.single-video h1 {
+		font-size: 30px;
+	}
+	.wmBox_contentWrap {
+		width: 90%;
+	}
+	.about-us-content {
+		display: block;
+	}
+	.about-us-content-left {
+		float: left;
+		margin-top: 50px;
+		padding: 0 15px;
+		width: 100%;
+	}
+	.about-content {
+		padding: 0;
+		padding-left: 60px;
+	}
+	.about-us-content-right {
+		float: right;
+		height: 350px;
+		width: 100%;
+	}
+	.testmonial-dec p {
+		padding: 0;
+	}
+	.iso-nav li,
+	.single-project {
+		width: 100%;
+	}
+	.choose-us-content {
+		display: block;
+	}
+	.choose-us-content-left {
+		width: 100%;
+		height: 350px;
+	}
+	.choose-us-content-right {
+		float: right;
+		padding: 60px 15px;
+		width: 100%;
+	}
+	.choose-us-content-right>h1 {
+		font-size: 22px;
+	}
+	.choose-us-content-right>p,
+	.ui-accordion-content>p {
+		font-size: 12px;
+	}
+	.progress-circle {
+		width: 100%;
+	}
+	.price-heading {
+		font-size: 22px;
+	}
+	.price-table sub,
+	.price-heading>h4 {
+		font-size: 18px;
+	}
+	.price-btn {
+		padding: 15px 30px;
+	}
+	/*	recent post part start*/
+	.cd-timeline-img {
+		width: 60px;
+		height: 60px;
+		left: 50%;
+		margin-left: -30px;
+		/* Force Hardware Acceleration in WebKit */
+		-webkit-transform: translateZ(0);
+		-webkit-backface-visibility: hidden;
+	}
+	.cssanimations .cd-timeline-img.is-hidden {
+		visibility: hidden;
+	}
+	.cssanimations .cd-timeline-img.bounce-in {
+		visibility: visible;
+		-webkit-animation: cd-bounce-1 0.6s;
+		-moz-animation: cd-bounce-1 0.6s;
+		animation: cd-bounce-1 0.6s;
+	}
+	.cssanimations .cd-timeline-content.bounce-in {
+		visibility: visible;
+		-webkit-animation: cd-bounce-2 0.6s;
+		-moz-animation: cd-bounce-2 0.6s;
+		animation: cd-bounce-2 0.6s;
+	}
+	/* inverse bounce effect on even content blocks */
+	.cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
+		-webkit-animation: cd-bounce-2-inverse 0.6s;
+		-moz-animation: cd-bounce-2-inverse 0.6s;
+		animation: cd-bounce-2-inverse 0.6s;
+	}
+	#cd-timeline::before,
+	.cd-timeline-img {
+		left: 7.5%;
+	}
+	.cd-timeline-content::before {
+		top: 0;
+	}
+	.cd-timeline-content.bounce-in>h2,
+	.blog-title>h2 {
+		font-size: 14px;
+	}
+	/*	recent post part end*/
+	.single-post-title {
+		padding: 50px 0;
+	}
+	.single-post-title>h1 {
+		font-size: 18px;
+	}
+	.blog-content>p,
+	blockquote,
+	.comment-content>p,
+	.author-content>p {
+		font-size: 12px;
+	}
+	.blog-post-content {
+		display: flow-root;
+	}
+	.main-blog-title,
+	.blog-post-date {
+		text-align: center;
+		width: 100%;
+	}
+	.blog-post-date {
+		margin-top: 30px;
+	}
+	.author-content {
+		width: 100%;
+		padding: 50px 15px;
+	}
+	.blog-comment-wraper>h3 {
+		font-size: 25px;
+	}
+	.reply-commnet-content {
+		padding-left: 50px;
+	}
+	.comment-content {
+		padding-left: 15px;
+	}
+	.comment-input-form,
+	.comment-textarea {
+		padding-right: 0;
+		width: 100%;
+	}
+	.contact-details {
+		border: 0;
+	}
+	.form-content {
+		margin-top: 10px;
+	}
+	#scrollUp {
+		bottom: 67px;
+	}
+	.footer-content {
+		font-size: 12px;
+	}
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.slicknav_btn {
+		left: -40%;
+	}
+	#cd-timeline::before,
+	.cd-timeline-img {
+		left: 5%;
+	}
+	#scrollUp {
+		bottom: 40px;
+	}
+}
